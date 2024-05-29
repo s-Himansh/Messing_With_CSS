@@ -214,3 +214,20 @@
     align-items: center;
     height: 100%;
 }
+
+
+
+/* messing with transformations */
+.transform-div{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(37, 37, 37);
+    margin: 100px;
+    border-radius: 13px;
+    transition: 1s;
+}
+
+
+.transform-div:hover{
+    transform: rotateZ(50deg);
+}
