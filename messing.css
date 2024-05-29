@@ -194,3 +194,23 @@
     background-color: red;
     border-radius: 20px;
 }
+
+
+/* messing with images */
+
+.image{
+    width: 800px;
+    height: 600px;
+    background-color: red;
+    margin: 30px;
+    background: url('https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_640.jpg');
+    background-size: cover;
+}
+
+.image-inner{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
