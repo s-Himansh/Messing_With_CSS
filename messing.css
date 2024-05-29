@@ -173,3 +173,24 @@
     height: 100%;
     font-size: 17px;
 }
+
+
+/* creating a section after div */
+
+.section{
+    height: auto;
+    background-color: gray;
+    padding: 50px;
+    display: flex;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    column-gap: calc(20% / 3);
+    row-gap: 50px;
+}
+
+.section-box{
+    width:20%;
+    height: 250px;
+    background-color: red;
+    border-radius: 20px;
+}
