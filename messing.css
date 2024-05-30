@@ -247,3 +247,55 @@
 .translate-div:hover{
     transform: translateX(-100px);
 }
+
+/* 
+    scale - will strech the container in the dimension we gave
+    translate - will shift the container to the desired given coordinates. Like shifting from intial pos to final pos
+    rotate - will rotate the container to the angle we give
+*/
+
+
+/* messing with transformations in a card container */
+
+.card-super{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.card-container{
+    width: 300px;
+    height: auto;
+    border: 2px solid black;
+    transition: .7s;
+}
+
+.card-container:hover{
+    transform: rotateZ(20deg);
+}
+
+.img-container{
+    width: 100%;
+    overflow: hidden;
+}
+
+.card-image{
+    width: 100%;
+    height: 100%;
+    transition: .7s;
+}
+.card-image:hover{
+    transform: scale(1.3);
+}
+
+.card-items{
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+
+}
+.list{
+    display: flex;
+    margin-top: 6px;
+    column-gap: 10px;
+}
