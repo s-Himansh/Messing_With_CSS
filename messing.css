@@ -232,3 +232,18 @@
     /* transform: rotateZ(50deg); */
     transform: scale(1.4);
 }
+
+
+.translate-div{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin-left: 600px;
+    margin-bottom: 300px;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.translate-div:hover{
+    transform: translateX(-100px);
+}
