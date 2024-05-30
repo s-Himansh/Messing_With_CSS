@@ -229,5 +229,6 @@
 
 
 .transform-div:hover{
-    transform: rotateZ(50deg);
+    /* transform: rotateZ(50deg); */
+    transform: scale(1.4);
 }
